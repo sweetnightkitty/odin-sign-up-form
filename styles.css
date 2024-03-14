@@ -1,4 +1,66 @@
 * {
     margin: 0;
     padding: 0;
+    --container-left-size: 35%;
+    --container-right-size: calc(100vw - var(--container-left-size));
+    --background-gray: #ECEEEF;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.container-left {
+    width: var(--container-left-size);
+}
+
+.container-right {
+    width: var(--container-right-size);
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    flex: 1;
+}
+
+form {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+/* container-right padding*/
+.hero, .form-content, .form-submit {
+    padding: 0 20px;
+}
+.form-content, .form-submit {
+    flex: 1;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero, .form-submit {
+    background-color: var(--background-gray);
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    gap: 50px;
+    flex: 1;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
 }
