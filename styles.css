@@ -7,6 +7,7 @@
     --logo-banner-background: white;
     --container-left-gray-overlay: rgb(161, 167, 170, .30);
     --logo-image-blue: #1081e0;
+    --hero-submit-button-padding: 25px;
 }
 
 body {
@@ -68,6 +69,21 @@ body {
 
 .hero {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.wrapper-hero {
+    padding-bottom: var(--hero-submit-button-padding);
+}
+
+.wrapper-submit {
+    padding-top: var(--hero-submit-button-padding);
+}
+
+.hero:last-child {
+    padding-bottom: 100px;
 }
 
 form {
