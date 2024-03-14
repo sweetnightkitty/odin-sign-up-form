@@ -4,6 +4,9 @@
     --container-left-size: 35%;
     --container-right-size: calc(100vw - var(--container-left-size));
     --background-gray: #ECEEEF;
+    --logo-banner-background: white;
+    --container-left-gray-overlay: rgb(161, 167, 170, .30);
+    --logo-image-blue: #1081e0;
 }
 
 body {
@@ -13,6 +16,48 @@ body {
 
 .container-left {
     width: var(--container-left-size);
+    background-image: url(/images/seonghak-hong-h-BxnAy_5WE-unsplash.jpg);
+    background-position: top;
+    background-size: auto 140vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo, .footer {
+    background-color: var(--container-left-gray-overlay);
+}
+
+.logo {
+    flex: 1;
+    padding-top: 25%;
+}
+
+.logo-img {
+    height: 60px;
+    padding-right: 5px;
+}
+.logo-text {
+    background-color: var(--logo-banner-background);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .container-right {
@@ -63,4 +108,14 @@ form {
 .form-item {
     display: flex;
     flex-direction: column;
+}
+
+.footer>a {
+    color: white;
+}
+
+p>a {
+    text-decoration: none;
+    color: var(--logo-image-blue);
+    font-weight: 700;
 }
