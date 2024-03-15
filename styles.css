@@ -146,12 +146,32 @@ label {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding-bottom: 2px;
+    padding-bottom: 5px;
 }
 
 input  {
     width: 200px;
-    height: 30px
+    height: 30px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input:focus {
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    border-color: var(--logo-image-blue);
+    outline: 0;
+}
+
+input:user-invalid{
+    border-color: red;
+    outline: 0;
+}
+
+input:user-valid {
+    border-color: green;
+    outline: 0;
 }
 
 .form-submit {
