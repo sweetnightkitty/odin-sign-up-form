@@ -119,7 +119,6 @@ form {
     flex: 1;
 }
 
-
 .hero, .form-submit {
     background-color: var(--background-gray);
 }
