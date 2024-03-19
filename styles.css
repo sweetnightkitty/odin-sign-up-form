@@ -17,7 +17,7 @@ body {
 
 .container-left {
     width: var(--container-left-size);
-    background-image: url(/images/seonghak-hong-h-BxnAy_5WE-unsplash.jpg);
+    background-image: url("images/seonghak-hong-h-BxnAy_5WE-unsplash.jpg");
     background-position: top;
     background-size: auto 140vh;
     background-repeat: no-repeat;
