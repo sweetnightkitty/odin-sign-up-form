@@ -12,10 +12,6 @@ Then after completing further lessons at the ODIN Project about form validation,
 https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form#assignment
 
 
- located at https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form 
-
-Basic sign up form designed in accordance with the provided design photo using purely HTML and CSS stylings.
-
 ## Photo Credits:
 
 design-image.png is property of the ODIN Project, and was provided as part of the assignment guidelines
