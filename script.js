@@ -13,6 +13,7 @@ form.addEventListener("submit", (e) => {
 
     if(errorInput != "none") {
         e.preventDefault();
+
         let errorMessage;
         if(isEmpty(errorInput)) {
             errorMessage = setMissingErrorMessage(errorInput);
@@ -25,6 +26,7 @@ form.addEventListener("submit", (e) => {
     }
 
 })
+
 
 function checkForErrors() {
     if(firstName.validity.valueMissing) {
@@ -81,3 +83,4 @@ function setMismatchErrorMessage(element) {
 
     return message;
 }
+

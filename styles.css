@@ -163,15 +163,6 @@ input:focus {
     outline: 0;
 }
 
-input:user-invalid{
-    border-color: red;
-    outline: 0;
-}
-
-input:user-valid {
-    border-color: green;
-    outline: 0;
-}
 
 .form-submit {
     padding-top: 35px;
