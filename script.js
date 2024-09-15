@@ -8,7 +8,7 @@ const confirmPassword = document.getElementById("pwd-confirm");
 const form = document.querySelector("form");
 
 form.addEventListener("submit", (e) => {
-    //If there is an erro, errorInput will equal the relevant global const
+    //If there is an error, errorInput will equal the relevant global const
     const errorInput = checkForErrors();
 
     if(errorInput != "none") {
