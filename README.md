@@ -11,6 +11,9 @@ Then after completing further lessons at the ODIN Project about form validation,
 
 https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form#assignment
 
+## Getting Started
+
+Just fork a copy to your Github account, use the git clone command to clone your forked copy to your local environment and then load in your browser.
 
 ## Photo Credits:
 
